@@ -1,0 +1,16 @@
+.contato {
+    background-color:  rgb(15, 13, 31);
+    text-align: center;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 0;
+  }
+  
+  .footer-bottom a {
+  text-decoration: none;
+  color: rgb(99, 60, 255);
+}
+  
