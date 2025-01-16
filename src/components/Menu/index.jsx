@@ -22,10 +22,10 @@ const Menu = () => {
     <MenuWrapper>
       <MenuList>
         <MenuItem>
-          <MenuLink href="#projects">{t("menu.projects")}</MenuLink>
+          <MenuLink href="#about">{t("menu.about")}</MenuLink>
         </MenuItem>
         <MenuItem>
-          <MenuLink href="#about">{t("menu.about")}</MenuLink>
+          <MenuLink href="#projects">{t("menu.projects")}</MenuLink>
         </MenuItem>
         <MenuItem>
           <MenuLink href="#services">{t("menu.services")}</MenuLink>

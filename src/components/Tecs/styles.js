@@ -6,9 +6,16 @@ export const TecsWrapper = styled.section`
   background-color: rgb(22, 19, 45);
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     color: #fff;
     margin-bottom: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 2rem; 
+      margin-bottom: 2rem;
+    }
   }
 `;
 

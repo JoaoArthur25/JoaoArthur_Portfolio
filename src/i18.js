@@ -41,7 +41,7 @@ const resources = {
           "Hi! I’m João Arthur Silva, a full stack developer with a passion for creating digital solutions that make a difference. I’m always looking for new challenges and opportunities to grow, so let’s work together and take your business to the next level!",
         redes_sociais: "Social Media",
         cv: "Download CV",
-        download_cv: "Download My CV",
+        download_cv: "Curriculum",
       },
       tecs: {
         title: "Technologies",
@@ -85,7 +85,7 @@ const resources = {
           "Olá! Sou João Arthur Silva, um desenvolvedor full stack apaixonado por criar soluções digitais que fazem a diferença. Estou sempre em busca de novos desafios e oportunidades para crescer, então vamos trabalhar juntos e levar o seu negócio para o próximo nível!",
         redes_sociais: "Redes Sociais",
         cv: "Baixar Currículo",
-        download_cv: "Baixar Meu Currículo",
+        download_cv: "Currículo",
       },
       tecs: {
         title: "Tecnologias",

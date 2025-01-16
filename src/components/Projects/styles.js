@@ -10,7 +10,7 @@ export const ProjectsWrapper = styled.section`
   justify-content: center;
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #fff;
     margin-bottom: 1.5rem;
   }
@@ -19,7 +19,7 @@ export const ProjectsWrapper = styled.section`
     padding: 3rem 1.5rem;
 
     h1 {
-      font-size: 2.5rem;
+      font-size: 2rem;
       margin-bottom: 2rem;
     }
   }

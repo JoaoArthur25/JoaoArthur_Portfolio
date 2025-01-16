@@ -17,8 +17,8 @@ const App = () => {
       <>
         <GlobalStyles />
         <Menu />  
-        <Projects />
         <About />
+        <Projects />
         <Services />
         <Tecs />
       </>
