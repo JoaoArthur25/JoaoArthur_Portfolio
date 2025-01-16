@@ -46,4 +46,12 @@ Siga os passos abaixo para rodar o projeto no seu ambiente local:
 4. Inicie o servidor de desenvolvimento:
    ```bash
    npm start
-E Pronto!
+   
+# 🌍 Internacionalização
+O portfólio está disponível em Português e Inglês. A linguagem é detectada automaticamente com base no navegador do usuário, mas pode ser alterada manualmente no menu.
+
+# 📬 Contato
+Entre em contato comigo para projetos ou dúvidas:
+
+Email: jarthurlsilva25@gmail.com
+LinkedIn: https://www.linkedin.com/in/joaoarthur25/
