@@ -10,6 +10,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
+import WhatsappButton from "./components/WhatsappButton";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Projects />
         <Services />
         <Tecs />
+        <WhatsappButton />
       </>
     </ThemeProvider>
   );

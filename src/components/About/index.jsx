@@ -14,7 +14,7 @@ import {
 } from "./styles";
 import "../../i18";
 import { useTranslation } from "react-i18next";
-import profileImage from "../../images/profile.jpeg";
+import profileImage from "../../images/profile.png";
 import { FiLinkedin, FiGithub } from "react-icons/fi";
 
 const About = () => {
