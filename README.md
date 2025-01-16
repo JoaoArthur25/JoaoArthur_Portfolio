@@ -6,7 +6,7 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvi
 
 Você pode acessar meu portfólio ao vivo clicando no link abaixo:
 
-🔗 [JoaoArthur Portfolio](https://joaoarthursilva.netlify.app)
+🔗 [JoaoArthur Portfolio](https://joaoarthurlsilva.netlify.app)
 
 ---
 
