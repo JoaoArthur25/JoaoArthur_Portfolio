@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import silvanalp from "../../images/silvanalp.png";
 import pixelshots from "../../images/pixelshots.png";
 import acdnexus from "../../images/acdnexus.png";
-import sunflower from "../../images/sunflower.png";
+import fernandalp from "../../images/fernandalp.png";
 
 const Projects = () => {
   const { t } = useTranslation();
@@ -27,9 +27,9 @@ const Projects = () => {
       image: acdnexus,
     },
     {
-      name: t("projects.sunflower"),
-      link: "https://github.com/JoaoArthur25/Sunflower-Inc.git",
-      image: sunflower,
+      name: t("projects.fernandalp"),
+      link: "https://fernandamarvilaadv.com.br",
+      image: fernandalp,
     },
   ];
 

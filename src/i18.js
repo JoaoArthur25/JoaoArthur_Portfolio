@@ -32,7 +32,7 @@ const resources = {
         silvanalp: "Landing Page - Banking Law",
         pixelshots: "Landing Page - Pixelshots",
         academic_nexus: "Desktop App - Academic Nexus",
-        sunflower: "Game - Sunflower Inc.",
+        fernandalp: "Landing Page - Law Firm",
       },
       about: {
         title:
@@ -76,7 +76,7 @@ const resources = {
         silvanalp: "Landing Page - Direito Bancário",
         pixelshots: "Landing Page - Pixelshots",
         academic_nexus: "Aplicativo - Academic Nexus",
-        sunflower: "Jogo - Sunflower Inc.",
+        fernandalp: "Landing Page - Escritório de Advocacia",
       },
       about: {
         title:
