@@ -29,7 +29,7 @@ const resources = {
       },
       projects: {
         title: "My Projects",
-        silvanalp: "Landing Page - Banking Law",
+        priscilalp: "Landing Page - Consumer Law",
         pixelshots: "Landing Page - Pixelshots",
         academic_nexus: "Desktop App - Academic Nexus",
         fernandalp: "Landing Page - Law Firm",
@@ -73,7 +73,7 @@ const resources = {
       },
       projects: {
         title: "Meus Projetos",
-        silvanalp: "Landing Page - Direito Bancário",
+        priscilalp: "Landing Page - Direito do Consumidor",
         pixelshots: "Landing Page - Pixelshots",
         academic_nexus: "Aplicativo - Academic Nexus",
         fernandalp: "Landing Page - Escritório de Advocacia",
