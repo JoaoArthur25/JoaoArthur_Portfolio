@@ -2,7 +2,7 @@ import React from "react";
 import { ProjectsWrapper, ProjectsContent, Card } from "./styles";
 import "../../i18";
 import { useTranslation } from "react-i18next";
-import priscilalp from "../../images/priscilalp.png";
+import silvanalp from "../../images/silvanalp.png";
 import pixelshots from "../../images/pixelshots.png";
 import acdnexus from "../../images/acdnexus.png";
 import fernandalp from "../../images/fernandalp.png";
@@ -12,9 +12,9 @@ const Projects = () => {
 
   const projects = [
     {
-      name: t("projects.priscilalp"),
-      link: "https://priscilaadv.netlify.app",
-      image: priscilalp,
+      name: t("projects.silvanalp"),
+      link: "https://silvanasampaioadv.netlify.app",
+      image: silvanalp,
     },
     {
       name: t("projects.pixelshots"),
