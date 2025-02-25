@@ -16,6 +16,7 @@ import "../../i18";
 import { useTranslation } from "react-i18next";
 import profileImage from "../../images/profile.png";
 import { FiLinkedin, FiGithub } from "react-icons/fi";
+import { FaInstagram } from "react-icons/fa";
 
 const About = () => {
   const { t } = useTranslation();
@@ -29,6 +30,13 @@ const About = () => {
           <AboutDivContatos>
             <AboutSocialMediaText>{t("about.redes_sociais")}</AboutSocialMediaText>
             <AboutSocialMedia>
+              <SocialMediaLink
+                href="https://www.instagram.com/jarthur_lp/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaInstagram />
+              </SocialMediaLink>
               <SocialMediaLink
                 href="https://www.linkedin.com/in/joaoarthur25/"
                 target="_blank"
