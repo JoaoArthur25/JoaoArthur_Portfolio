@@ -3,7 +3,7 @@ import { ProjectsWrapper, ProjectsContent, Card } from "./styles";
 import "../../i18";
 import { useTranslation } from "react-i18next";
 import silvanalp from "../../images/silvanalp.png";
-import pixelshots from "../../images/pixelshots.png";
+import sandralp from "../../images/sandralp.png";
 import acdnexus from "../../images/acdnexus.png";
 import fernandalp from "../../images/fernandalp.png";
 
@@ -17,9 +17,9 @@ const Projects = () => {
       image: silvanalp,
     },
     {
-      name: t("projects.pixelshots"),
-      link: "https://pixelshots.netlify.app",
-      image: pixelshots,
+      name: t("projects.sandralp"),
+      link: "https://sandrabarbosa.netlify.app",
+      image: sandralp,
     },
     {
       name: t("projects.academic_nexus"),
