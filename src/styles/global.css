@@ -1,0 +1,144 @@
+/* ============================================================
+   Tokens
+   ============================================================ */
+:root {
+  /* Cor — tinta profunda + latão */
+  --ink-0: #0b101b; /* fundo mais profundo (hero, footer) */
+  --ink-1: #0e1420; /* fundo padrão */
+  --ink-2: #141c2c; /* superfícies elevadas (cards, vinhetas) */
+  --ink-3: #1d2739; /* bordas fortes, hover de superfície */
+  --line: rgba(232, 230, 223, 0.1); /* hairlines */
+  --line-strong: rgba(232, 230, 223, 0.18);
+
+  --text-1: #e8e6df; /* texto principal, off-white quente */
+  --text-2: #a8aab0; /* texto secundário */
+  --text-3: #6d7280; /* texto terciário, metadados apagados */
+
+  --brass: #c9a35c; /* acento único */
+  --brass-bright: #e3c07e; /* hover / brilho */
+  --brass-dim: rgba(201, 163, 92, 0.14); /* fundos de tag */
+
+  --ok: #6fbf8f; /* status "em produção" */
+
+  /* Tipo */
+  --font-display: "Bricolage Grotesque", "Georgia", serif;
+  --font-body: "Instrument Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "Spline Sans Mono", "Consolas", monospace;
+
+  /* Escala */
+  --step--1: clamp(0.78rem, 0.74rem + 0.2vw, 0.85rem);
+  --step-0: clamp(0.95rem, 0.9rem + 0.25vw, 1.05rem);
+  --step-1: clamp(1.15rem, 1.05rem + 0.5vw, 1.4rem);
+  --step-2: clamp(1.5rem, 1.3rem + 1vw, 2.1rem);
+  --step-3: clamp(2rem, 1.6rem + 2vw, 3.2rem);
+  --step-4: clamp(2.6rem, 1.9rem + 3.6vw, 4.8rem);
+
+  /* Layout */
+  --page-max: 1200px;
+  --page-pad: clamp(1.25rem, 4vw, 3rem);
+  --section-gap: clamp(5rem, 12vh, 9rem);
+
+  --radius: 10px;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ============================================================
+   Base
+   ============================================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--ink-1);
+  color: var(--text-1);
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--brass);
+  color: var(--ink-0);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ============================================================
+   Utilitários compartilhados
+   ============================================================ */
+.container {
+  max-width: var(--page-max);
+  margin-inline: auto;
+  padding-inline: var(--page-pad);
+}
+
+/* Eyebrow em mono: rótulo de seção, lê-se como metadado de sistema */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--brass);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.eyebrow::after {
+  content: "";
+  height: 1px;
+  width: 3.5rem;
+  background: var(--line-strong);
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: var(--step-3);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  margin-top: 0.75rem;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,54 @@
+.services {
+  padding-block: var(--section-gap);
+  border-top: 1px solid var(--line);
+}
+
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: clamp(2.5rem, 5vh, 4rem);
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+}
+
+.service {
+  position: relative;
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+/* Régua de latão que cresce no hover — a microinteração da seção */
+.service::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 0;
+  background: var(--brass);
+  transition: height 0.45s var(--ease-out);
+}
+
+.service:hover::before {
+  height: 100%;
+}
+
+.service__name {
+  font-family: var(--font-display);
+  font-size: var(--step-1);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.service__desc {
+  color: var(--text-2);
+  margin-top: 0.75rem;
+  max-width: 42ch;
+}
+
+@media (max-width: 720px) {
+  .services__grid {
+    grid-template-columns: 1fr;
+  }
+}
