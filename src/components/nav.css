@@ -1,0 +1,78 @@
+.nav {
+  position: fixed;
+  inset-inline: 0;
+  top: 0;
+  z-index: 50;
+  transition: background 0.4s var(--ease-out), border-color 0.4s var(--ease-out);
+  border-bottom: 1px solid transparent;
+}
+
+.nav--scrolled {
+  background: rgba(11, 16, 27, 0.82);
+  backdrop-filter: blur(12px);
+  border-bottom-color: var(--line);
+}
+
+.nav__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  height: 4.25rem;
+}
+
+.nav__brand {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
+.nav__brand-dot {
+  color: var(--brass);
+}
+
+.nav__links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__links a {
+  text-decoration: none;
+  color: var(--text-2);
+  font-size: var(--step--1);
+  letter-spacing: 0.02em;
+  transition: color 0.25s var(--ease-out);
+}
+
+.nav__links a:hover {
+  color: var(--text-1);
+}
+
+.nav__lang {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--text-3);
+}
+
+.nav__lang button {
+  color: var(--text-3);
+  padding: 0.2rem 0.1rem;
+  transition: color 0.25s var(--ease-out);
+}
+
+.nav__lang button:hover {
+  color: var(--text-1);
+}
+
+.nav__lang button.is-active {
+  color: var(--brass);
+}
+
+@media (max-width: 720px) {
+  .nav__links {
+    display: none;
+  }
+}

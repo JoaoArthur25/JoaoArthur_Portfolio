@@ -1,57 +1,37 @@
-# 🌟 João Arthur Portfólio 🌟
+# João Arthur — Portfólio
 
-Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido para destacar meus trabalhos, habilidades e projetos enquanto desenvolvedor. 💻
+Portfólio pessoal, refeito do zero com foco em projetos reais em produção:
+CRM jurídico, Chess Admin, bot de WhatsApp (Cloud API oficial) e landing
+pages para advocacia.
 
-## 🚀 Demonstração
+🔗 [joaoarthurlsilva.netlify.app](https://joaoarthurlsilva.netlify.app)
 
-Você pode acessar meu portfólio ao vivo clicando no link abaixo:
+## Stack
 
-🔗 [JoaoArthur Portfolio](https://joaoarthurlsilva.netlify.app)
+- **Vite + React 19 + TypeScript**
+- **Motion** (motion.dev) — reveals de scroll e microinterações
+- **Lenis** — scroll suave
+- **i18next** — pt/en com detecção automática
+- CSS puro com design tokens (sem framework de UI)
 
----
+## Rodando localmente
 
-## 📖 Sobre o Projeto
+```bash
+npm install
+npm run dev
+```
 
-Este portfólio foi desenvolvido com as seguintes tecnologias:
+O site sobe em `http://localhost:5190`.
 
-- **React.js**: Biblioteca JavaScript para construir interfaces de usuário.
-- **Styled-Components**: Para estilização de componentes de forma dinâmica.
-- **i18next**: Gerenciamento de internacionalização, permitindo tradução entre idiomas.
-- **Slick Carousel**: Slider interativo para exibir conteúdos com design moderno.
-- **Netlify**: Para hospedagem do site de maneira rápida e eficiente.
+## Build
 
----
+```bash
+npm run build
+```
 
-## 📂 Estrutura do Projeto
+Gera a versão de produção em `dist/` (config do Netlify em `netlify.toml`).
 
-- **`/src/components`**: Contém os componentes principais do projeto, como Menu, About, Services, Projects, etc.
-- **`/src/styles`**: Estilos globais e tema para o projeto.
-- **`/src/images`**: Imagens usadas no portfólio.
+## Contato
 
----
-
-## 💻 Como Rodar o Projeto Localmente
-
-Siga os passos abaixo para rodar o projeto no seu ambiente local:
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/JoaoArthur25/JoaoArthur_Portfolio.git
-2. Acesse o diretório do projeto:
-   ```bash
-   cd JoaoArthur_Portfolio
-3. Instale as dependências:
-   ```bash
-   npm install
-4. Inicie o servidor de desenvolvimento:
-   ```bash
-   npm start
-   
-# 🌍 Internacionalização
-O portfólio está disponível em Português e Inglês. A linguagem é detectada automaticamente com base no navegador do usuário, mas pode ser alterada manualmente no menu.
-
-# 📬 Contato
-Entre em contato comigo para projetos ou dúvidas:
-
-Email: jarthurlsilva25@gmail.com
-LinkedIn: https://www.linkedin.com/in/joaoarthur25/
+- Email: jarthurlsilva25@gmail.com
+- LinkedIn: https://www.linkedin.com/in/joaoarthur25/
