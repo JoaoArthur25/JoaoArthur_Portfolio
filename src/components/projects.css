@@ -192,42 +192,6 @@
   color: var(--brass);
 }
 
-/* ---------- Chess: tabela de rodada ---------- */
-.chess__head,
-.chess__row {
-  display: grid;
-  grid-template-columns: 3rem 1fr 5.5rem 1fr;
-  gap: 0.5rem;
-  align-items: center;
-  padding: 0.55rem 0.4rem;
-}
-
-.chess__head {
-  color: var(--text-3);
-  font-size: 0.68rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  border-bottom: 1px solid var(--line);
-}
-
-.chess__row {
-  border-bottom: 1px solid var(--line);
-  font-size: 0.88rem;
-}
-
-.chess__row:last-child {
-  border-bottom: none;
-}
-
-.chess__mesa {
-  color: var(--text-3);
-}
-
-.chess__score {
-  color: var(--brass);
-  text-align: center;
-}
-
 /* ---------- Bot: chat ---------- */
 .chat {
   display: flex;

@@ -3,6 +3,7 @@ import type { Variants } from "motion/react";
 import { useTranslation } from "react-i18next";
 import Reveal from "./Reveal";
 import silvanaShot from "../assets/silvanalp.png";
+import chessShot from "../assets/chessadmin.png";
 import "./projects.css";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
@@ -72,29 +73,15 @@ function CrmVignette() {
 }
 
 function ChessVignette() {
-  const rows = [
-    { mesa: "01", white: "Almeida", score: "½ – ½", black: "Rocha" },
-    { mesa: "02", white: "Pereira", score: "1 – 0", black: "Lima" },
-    { mesa: "03", white: "Duarte", score: "0 – 1", black: "Farias" },
-  ];
   return (
-    <VignetteFrame title="chess-admin — rodada 4 · sistema suíço">
-      <div className="chess">
-        <div className="chess__head mono">
-          <span>mesa</span>
-          <span>brancas</span>
-          <span>resultado</span>
-          <span>pretas</span>
-        </div>
-        {rows.map((row) => (
-          <motion.div className="chess__row" variants={item} key={row.mesa}>
-            <span className="mono chess__mesa">{row.mesa}</span>
-            <span>{row.white}</span>
-            <span className="mono chess__score">{row.score}</span>
-            <span>{row.black}</span>
-          </motion.div>
-        ))}
-      </div>
+    <VignetteFrame title="chess-admin — classificação ao vivo · rodada 2/5">
+      <motion.div className="lp" variants={item}>
+        <img
+          src={chessShot}
+          alt="Classificação ao vivo de um torneio no Chess Admin"
+          loading="lazy"
+        />
+      </motion.div>
     </VignetteFrame>
   );
 }
