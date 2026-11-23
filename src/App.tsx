@@ -3,6 +3,7 @@ import Lenis from "lenis";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import Research from "./components/Research";
 import Services from "./components/Services";
 import TechBand from "./components/TechBand";
 import About from "./components/About";
@@ -34,6 +35,7 @@ export default function App() {
       <main>
         <Hero />
         <Projects />
+        <Research />
         <Services />
         <TechBand />
         <About />

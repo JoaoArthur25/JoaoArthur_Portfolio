@@ -32,7 +32,7 @@ export default function Footer() {
         </Reveal>
         <div className="footer__bottom mono">
           <span>
-            © {year} João Arthur Silva — {t("contact.rights")}
+            © {year} João Arthur Lima da Silva — {t("contact.rights")}
           </span>
           <span className="footer__email">jarthurlsilva25@gmail.com</span>
         </div>

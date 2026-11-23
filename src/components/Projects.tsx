@@ -133,7 +133,7 @@ const cases: CaseDef[] = [
   {
     key: "crm",
     production: true,
-    tags: ["React", "Node.js", "PostgreSQL", "WhatsApp Cloud API"],
+    tags: ["React", "TypeScript", "Node.js/Express", "Prisma", "PostgreSQL", "WhatsApp Cloud API"],
     vignette: <CrmVignette />,
   },
   {

@@ -12,11 +12,15 @@ export default function TechBand() {
     },
     {
       label: t("tech.server"),
-      items: ["Node.js", "NestJS", "PostgreSQL", "Prisma", "Java"],
+      items: ["Node.js", "NestJS", "Python", "FastAPI", "PostgreSQL", "Prisma", "Java"],
     },
     {
       label: t("tech.ops"),
-      items: ["Docker", "Git", "CI/CD", "Netlify", "Backups B2"],
+      items: ["Docker", "Git", "GitHub Actions", "Netlify", "Backups B2"],
+    },
+    {
+      label: t("tech.ai"),
+      items: ["RAG", "LLMs", t("tech.kg")],
     },
   ];
 
