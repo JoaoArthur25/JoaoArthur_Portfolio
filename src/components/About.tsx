@@ -3,10 +3,9 @@ import Reveal from "./Reveal";
 import profile from "../assets/profile.jpg";
 import "./about.css";
 
-const socials = [
-  { label: "GitHub", href: "https://github.com/JoaoArthur25" },
+const links = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/joaoarthur25/" },
-  { label: "Instagram", href: "https://www.instagram.com/jarthur_lp/" },
+  { label: "GitHub", href: "https://github.com/JoaoArthur25" },
 ];
 
 export default function About() {
@@ -20,30 +19,39 @@ export default function About() {
           <h2 className="section-title">{t("about.title")}</h2>
           <p className="about__p">{t("about.p1")}</p>
           <p className="about__p">{t("about.p2")}</p>
-          <div className="about__actions">
-            <a
-              className="about__cv"
-              href="/Currículo.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {t("about.cv")} ↓
-            </a>
-            <div className="about__socials">
-              <span className="mono about__socials-label">
-                {t("about.socials")}
-              </span>
-              {socials.map((s) => (
+
+          <div className="recruiters">
+            <p className="recruiters__label mono">{t("about.recruiters")}</p>
+            <p className="recruiters__text">{t("about.recruiters_text")}</p>
+            <p className="recruiters__note">{t("about.citizenship")}</p>
+            <div className="recruiters__actions">
+              <a
+                className="about__cv"
+                href={t("about.cv_file")}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t("about.cv")} ↓
+              </a>
+              {links.map((l) => (
                 <a
-                  key={s.label}
-                  href={s.href}
+                  key={l.label}
+                  href={l.href}
                   target="_blank"
                   rel="noreferrer"
                   className="about__social-link"
                 >
-                  {s.label} ↗
+                  {l.label} ↗
                 </a>
               ))}
+              <a
+                href="https://www.instagram.com/jarthur_lp/"
+                target="_blank"
+                rel="noreferrer"
+                className="about__social-link about__social-link--quiet"
+              >
+                Instagram ↗
+              </a>
             </div>
           </div>
         </Reveal>

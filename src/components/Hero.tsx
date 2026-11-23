@@ -28,6 +28,10 @@ export default function Hero() {
         <motion.p className="hero__lead" {...rise(0.36)}>
           {t("hero.lead")}
         </motion.p>
+        <motion.p className="hero__research" {...rise(0.42)}>
+          <span className="hero__research-mark" aria-hidden="true" />
+          {t("hero.research")}
+        </motion.p>
         <motion.div className="hero__actions" {...rise(0.48)}>
           <a className="hero__cta hero__cta--solid" href="#projetos">
             {t("hero.cta_projects")}

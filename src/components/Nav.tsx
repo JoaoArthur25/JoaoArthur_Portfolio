@@ -22,6 +22,7 @@ export default function Nav() {
         </a>
         <nav className="nav__links" aria-label="Seções">
           <a href="#projetos">{t("nav.projects")}</a>
+          <a href="#pesquisa">{t("nav.research")}</a>
           <a href="#servicos">{t("nav.services")}</a>
           <a href="#sobre">{t("nav.about")}</a>
           <a href="#contato">{t("nav.contact")}</a>
